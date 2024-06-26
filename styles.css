@@ -1,0 +1,114 @@
+/* Importing a Google font */
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+
+body,
+h1,
+p {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header .top {
+  background-color: #161616;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .top .logo img {
+  max-width: 50%;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#menu ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu li {
+  margin-right: 20px;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+#menu a:hover {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.title {
+  border: 2px solid black;
+  border-radius: 26px;
+  width: 70%;
+  margin: 20px auto;
+  background-color: #f7910c9f;
+  padding: 20px;
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 40px;
+  color: #f10808;
+}
+
+.slideshow-container {
+  border: 2px solid rgba(161, 64, 8, 0.836);
+  border-radius: 10px;
+  max-width: 80%;
+  position: relative;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.slideshow-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.text {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  filter: drop-shadow(10px 6px 16px #ee0000);
+}
